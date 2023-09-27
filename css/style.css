@@ -31,7 +31,7 @@ a {
 img:hover {
     opacity: .7;
 }
-
+#wrap { max-width: 1400px;}
 /* ====================== 
     header 
 =======================*/
@@ -44,6 +44,7 @@ header {
 header .innerHeader {
     width: 100%;
     height: 80px;
+    max-width: 1400px;
 }
 
 header .innerHeader .navbar {
@@ -101,6 +102,7 @@ ul.menu li a.active {
 /* toggle */
 header .innerHeader .navbar .toggleBtn {
     display: none;
+
 }
 
 /* ====================== 
@@ -113,6 +115,7 @@ section#mainImg {
     background: url("../images/mainBg.jpg")no-repeat center/cover;
     background-attachment: fixed;
     position: relative;
+    max-width: 1400px;
 }
 
 section#mainImg .mainText .title {
@@ -183,6 +186,7 @@ section#mainImg .mainText .ciDown .btn a.downBtn {
 section#about {
     width: 100%;
     background-color: #fff;
+    max-width: 1400px;
 
 }
 
@@ -235,7 +239,7 @@ section#career {
     background: url("../images/careerBg.jpg")no-repeat center/cover;
     background-attachment: fixed;
     position: relative;
-
+    max-width: 1400px;
 }
 
 section#career .careerInner {
@@ -325,6 +329,7 @@ section#products {
     width: 100%;
     height: auto;
     background-color: #e1e1e1;
+    max-width: 1400px;
 }
 
 section#products .productsInner {
@@ -429,6 +434,7 @@ footer {
     justify-content: space-between;
     background-color: #333;
     height: 80px;
+    max-width: 1400px;
 }
 
 footer p {
