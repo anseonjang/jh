@@ -13,7 +13,7 @@
 }
 
 body {
-  
+  --text-color: #f0f4f5;
 }
 
 ul,
@@ -466,7 +466,7 @@ footer ul.sns i {
     /* <<- 미디어쿼리 넣기 - 괄호는 맨끝*/
 
     header .navbar {
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.3);
 
     }
 
